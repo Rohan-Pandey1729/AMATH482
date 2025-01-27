@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{bracewell1986fourier}
+R.~N. Bracewell.
+\newblock {\em The Fourier Transform and Its Applications}.
+\newblock McGraw-Hill, 1986.
+
+\bibitem{matplotlib}
+{Matplotlib Developers}.
+\newblock {Matplotlib: Visualization with Python}.
+\newblock \url{https://matplotlib.org/}, 2025.
+\newblock [Accessed: Jan. 26, 2025].
+
+\bibitem{numpy}
+{NumPy Developers}.
+\newblock {NumPy: Fundamental package for scientific computing in Python}.
+\newblock \url{https://numpy.org/}, 2025.
+\newblock [Accessed: Jan. 26, 2025].
+
+\bibitem{oppenheim1999discrete}
+A.~V. Oppenheim, R.~W. Schafer, and J.~R. Buck.
+\newblock {\em Discrete-Time Signal Processing}.
+\newblock Prentice Hall, 1999.
+
+\bibitem{plotly}
+{Plotly Technologies Inc.}
+\newblock {Plotly: The interactive graphing library for Python}.
+\newblock \url{https://plotly.com/}, 2025.
+\newblock [Accessed: Jan. 26, 2025].
+
+\end{thebibliography}
