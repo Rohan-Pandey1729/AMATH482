@@ -4,18 +4,33 @@
 % Useful packages
 \usepackage{amsmath, amssymb, amsthm, amsaddr}
 \usepackage{enumerate, subcaption, graphicx, hyperref}
-\title{AMATH 482/582: Home Work 1}
-\author{Future Scientist} % first and last name
-\address{Amazing Department, University of Washington, Seattle, WA
-\\ \texttt{youremail@uw.edu}}
+\title{AMATH 482: Homework 1}
+\author{Rohan Pandey} % first and last name
+\address{University of Washington, Seattle, WA
+\\ \texttt{rpande@uw.edu}}
 \date{\today} % you can also just type the date instead of "\today"
 \begin{document}
-\maketitle
+
 \begin{abstract}
-Your report should contain a brief, 100 word abstract describing what is
-contained in
-the document and what you did. {\bf Don't forget 6 pages max}.
+    In this report, we have been tasked to locate a submarine that is moving in the Puget Sound. The submarine emits an unknown acoustic frequency that we need to detect. Using broad spectrum recording of acoustics pressure data, we will analyze the data to locate the submarine. The data is noisy and contains measurements of acoustic pressure taken over 24 hours. The measurements are 3D and taken on a uniform grid of size 64 x 64 x 64. We will visualize the data and define the physical scales of the problem to locate the submarine.
+
+    Your goal in this homework is to locate a submarine that is moving in the Puget Sound. We do not know
+much about this submarine as it is a new technology that emits an unknown acoustic frequency that you
+need to detect.
+Broad spectrum recording of acoustics pressure data obtained over 24 hours in half-hour increments is
+available to you. You can download the data using the Google drive links on Canvas; either of the data
+files subdata.npy for Python users, subdata.mat for MATLAB users or subdata.csv in text format if the
+previous two formats are insufficient.
+The data file contains a matrix with 49 columns of data corresponding to the measurements of acoustic
+pressure taken over 24 hours. These measurements are noisy (which is typically the case). The measurements
+themselves are 3D and taken on a uniform grid of size 64 × 64 × 64. The provided (hwhelper) notebook will
+visualize this data for you and define the physical scales of the problem
+    Your report should contain a brief, 100 word abstract describing what is
+    contained inthe document and what you did. {\bf Don't forget 6 pages max}.
 \end{abstract}
+
+\maketitle
+
 \section{Introduction and Overview}\label{sec:Introduction}
 Here you will give a brief introduction to the problem you solved. Including
 some discussion of relevant literature and background.
@@ -99,29 +114,7 @@ purpose. It
 can be annoying the first time you do it but it is crucial.}
 \label{fig:meaningful-label}
 \end{figure}
-You may also need to include multiple figures:
-\begin{figure}
-\centering
-\begin{subfigure}[b]{.3\textwidth}
-\includegraphics[width=\textwidth]{./Figs/fig1.pdf}
-\caption{First subfigure}
-\label{subfig:first}
-\end{subfigure}
-\begin{subfigure}[b]{.3\textwidth}
-\includegraphics[width=\textwidth]{./Figs/fig2.pdf}
-\caption{First subfigure}
-\label{subfig:second}
-\end{subfigure}
-\begin{subfigure}[b]{.3\textwidth}
-\includegraphics[width=\textwidth]{./Figs/fig3.pdf}
-\caption{First subfigure}
-\label{subfig:third}
-\end{subfigure}
-\caption{Caption for entire figure. You don't need to use captions for subfigs
-so
-feel free to eliminate the subcaption texts to just have the A, B, C labels.}
-\label{fig:meaningful-label-2}
-\end{figure}
+
 Once again, make sure all your figures are referenced like Figure~\
 ref{fig:meaningful-label}
 or Figure~\ref{subfig:first} in the text body of the report and discussed
@@ -135,13 +128,7 @@ Both Python and MATLAB can output figures in PDF or PNG.
 Wrap up your report with a brief summary of what you did and what you discovered.
 Finish with some conclusions and possibly future directions if any.
 \section*{Acknowledgements}
-Make sure you you clearly state any help you received including collaborations
-with your peers. Help from TAs or other mentors, professors, etc that helped you
-with your assignment. Here's a formal example:
-The author is thankful to Prof. X for useful discussions about the QR algorithm.
-We are also thankful to Dr. Strange for suggesting the JAX software package for
-automatic differentiation. Furthermore, our peer Jean Grey was helpful in
-implementation of spectral clustering in Python.
+The author is thankful to Professor Frank for providing me with the materials and resources needed to complete this assignment. The author is also thankful to the peers Eric Ye and Chenab for discussion and implementation of visualization techniques in Python.
 \bibliographystyle{abbrv}
 \bibliography{HW_References} % make sure this matches the .bib file for your
 corresponding document. You also have to maintain your references in the .bib file
