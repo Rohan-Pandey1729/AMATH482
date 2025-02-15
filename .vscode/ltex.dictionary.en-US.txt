@@ -3,3 +3,6 @@ denoise
 denoised
 Chenab
 denoising
+OptimuS-VD
+Frobenius
+Plotly

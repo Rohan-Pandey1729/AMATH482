@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{matplotlib}
+{Matplotlib Developers}.
+\newblock {Matplotlib: Visualization with Python}.
+\newblock \url{https://matplotlib.org/}, 2025.
+\newblock [Accessed: Jan. 26, 2025].
+
+\bibitem{numpy}
+{NumPy Developers}.
+\newblock {NumPy: Fundamental package for scientific computing in Python}.
+\newblock \url{https://numpy.org/}, 2025.
+\newblock [Accessed: Jan. 26, 2025].
+
+\bibitem{plotly}
+{Plotly Technologies Inc.}
+\newblock {Plotly: The interactive graphing library for Python}.
+\newblock \url{https://plotly.com/}, 2025.
+\newblock [Accessed: Jan. 26, 2025].
+
+\bibitem{wiki_frob}
+{Wikipedia contributors}.
+\newblock {Matrix norm --- Wikipedia, The Free Encyclopedia}, 2025.
+
+\end{thebibliography}
