@@ -109,7 +109,7 @@ The code that was needed for this report involved several key steps, using Pytho
 
 First let's determine using our training data, at what PCA mode do we achieve a certain amount of cumulative energy. For this task we will be testing $70\%, 80\%, 90\%, 95\%, 99\%$ cumulative energy.
 
-Here's the results in a table:
+Here are the results in a table:
 
 \begin{table}[h]
     \centering
@@ -132,7 +132,15 @@ The corresponding plot is below:
 \end{figure}
 
 
-Following up from the results above, we can now visualize the trajectories of the robot in 2D and 3D space (provided in the code). The following figure however only shows the 3D PCA representation of the robot's movements and includes the calculated centroids.
+Following up from the results above, we can now visualize the trajectories of the robot in 2D space (3D also provided in the code).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{quick.png}
+    \caption{2D Representation of the robot's movements}
+\end{figure}
+
+The following figure shows 3D PCA representation with centroids of the robot's movements.
 
 
 \begin{figure}[H]
@@ -174,8 +182,7 @@ As per our tasks, we now continue on to test the algorithm on the test data and 
 \section{Summary and Conclusions}\label{sec:Conclusions}
 
 
-In this report, we projected the movements of the humanoid robot OptimuS-VD to a lower dimension using PCA and SVD. We visualized the movements of the robot in 2D and 3D space and designed an algorithm to classify the movements in real-time. We found that we needed 2 PCA modes to achieve $70\%$ cumulative energy, 3 modes for $80\%$, 5 modes for $90\%$, and 7 modes for $95\%$ cumulative energy. Furthermore, we also found that the accuracy of the algorithm on the training data was constant at $91.06\%$ for more than $13$ PCA modes. We also found that the accuracy of the algorithm on the test data was $98.34\%$ for $70\%$ cumulative energy, $92.34\%$ for $80\%$, $91.67\%$ for $90\%$, and $94.34\%$ for $95\%$ cumulative energy. And similarly as $k \to \infty$ the accuracy went to $0.9534$. It is interesting to compare between the train and test accuracies and see that the test accuracy is higher than the train accuracy. This might be because the test data is more structured and the algorithm is able to classify the movements better. Regardless, the algorithm shows that the training data was able to classify the movements with a relatively high accuracy, and when tested on the testing data, a similarly high performance was found. This algorithm can be used in real-time applications to classify the movements of the robot and can be used in a variety of applications such as safety, efficiency, and entertainment.
-
+We projected the movements of the humanoid robot OptimuS-VD to a lower dimension using PCA and SVD, visualized them in 2D and 3D, and designed a real-time classification algorithm. We found that 2 PCA modes captured 70\% cumulative energy, 3 modes 80\%, 5 modes 90\%, and 7 modes 95\%. The algorithm achieved 91.06\% training accuracy for more than 13 modes, while test accuracy varied from 98.34\% at 70\% energy to 94.34\% at 95\%, converging to 95.34\% as \( k \to \infty \). Interestingly, test accuracy exceeded training accuracy, likely due to structured test data. This algorithm is promising for real-time applications in safety, efficiency, and entertainment.
 
 \section*{Acknowledgements}
 

@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex Report"] 1739605059.52975 "Report.aux" "Report.bbl" "Report" 1739605205.19388 0
+["bibtex Report"] 1739605698.84956 "Report.aux" "Report.bbl" "Report" 1739605700.43946 0
   "./HW2_references.bib" 1739590399.1361 872 8acdae671795f0058e1f149227dc0be1 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "Report.aux" 1739605204.81386 2970 6b3877240f6787c7a86ce8b30c07db59 "pdflatex"
+  "Report.aux" 1739605700.06954 3131 14fe0398b3700592907348d96a3c80e6 "pdflatex"
   (generated)
   "Report.bbl"
   "Report.blg"
   (rewritten before read)
-["pdflatex"] 1739605203.7917 "/Users/rohanpandey/Desktop/Everything/AMATH 482/Github/AMATH482/Report 2/Report.tex" "Report.pdf" "Report" 1739605205.19413 0
-  "/Users/rohanpandey/Desktop/Everything/AMATH 482/Github/AMATH482/Report 2/Report.tex" 1739605203.49169 12589 47e6430d498af967d58a14ec39fd9515 ""
+["pdflatex"] 1739605699.00224 "/Users/rohanpandey/Desktop/Everything/AMATH 482/Github/AMATH482/Report 2/Report.tex" "Report.pdf" "Report" 1739605700.43967 0
+  "/Users/rohanpandey/Desktop/Everything/AMATH 482/Github/AMATH482/Report 2/Report.tex" 1739605696.82947 11949 74c0edfdd478d29f9d1dda4db535dcc4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -123,10 +123,11 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "3D PCA Centroid.png" 1739591550.83333 55337 00d8b3404499427d0fb2c55b1a1df0ff ""
   "PCA_mode_energy.png" 1739591157.96295 40519 da6c745837ffc728f3612dd60d34faab ""
-  "Report.aux" 1739605204.81386 2970 6b3877240f6787c7a86ce8b30c07db59 "pdflatex"
-  "Report.bbl" 1739605059.67422 728 b94741656bbe36a289cf3528d8f00267 "bibtex Report"
-  "Report.out" 1739605204.81473 1904 c8ba111e9ed7739f70d93fbad574bbdf "pdflatex"
-  "Report.tex" 1739605203.49169 12589 47e6430d498af967d58a14ec39fd9515 ""
+  "Report.aux" 1739605700.06954 3131 14fe0398b3700592907348d96a3c80e6 "pdflatex"
+  "Report.bbl" 1739605698.99876 728 b94741656bbe36a289cf3528d8f00267 "bibtex Report"
+  "Report.out" 1739605700.07042 1904 03ea1581f555ca45c404ba06bf24d03a "pdflatex"
+  "Report.tex" 1739605696.82947 11949 74c0edfdd478d29f9d1dda4db535dcc4 ""
+  "quick.png" 1739605457.78356 45163 524b7384d4a981d4d7079222cf52a0c5 ""
   "test_acc.png" 1739603759.64313 20103 9f31d60f5a1c39ad11cad2b3c8c5a912 ""
   "train_acc.png" 1739603526.64578 24355 3ed24e0992ec232248efe7e5abd48b24 ""
   (generated)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  14 FEB 2025 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  14 FEB 2025 23:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,43 +425,51 @@ Package pdftex.def Info: PCA_mode_energy.png  used on input line 130.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<3D PCA Centroid.png, id=89, 589.20125pt x 451.6875pt>
+<quick.png, id=89, 510.2262pt x 327.3831pt>
+File: quick.png Graphic file (type png)
+<use quick.png>
+Package pdftex.def Info: quick.png  used on input line 139.
+(pdftex.def)             Requested size: 281.85587pt x 180.85054pt.
+<3D PCA Centroid.png, id=90, 589.20125pt x 451.6875pt>
 File: 3D PCA Centroid.png Graphic file (type png)
 <use 3D PCA Centroid.png>
-Package pdftex.def Info: 3D PCA Centroid.png  used on input line 140.
+Package pdftex.def Info: 3D PCA Centroid.png  used on input line 148.
 (pdftex.def)             Requested size: 375.80544pt x 288.10031pt.
- [4 <./PCA_mode_energy.png> <./3D PCA Centroid.png>]
-<train_acc.png, id=98, 416.2752pt x 327.3831pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./PCA_mode_energy.png> <./quick.png>]
+<train_acc.png, id=99, 416.2752pt x 327.3831pt>
 File: train_acc.png Graphic file (type png)
 <use train_acc.png>
-Package pdftex.def Info: train_acc.png  used on input line 148.
+Package pdftex.def Info: train_acc.png  used on input line 156.
 (pdftex.def)             Requested size: 187.89914pt x 147.77562pt.
-<test_acc.png, id=99, 409.7709pt x 327.3831pt>
+<test_acc.png, id=100, 409.7709pt x 327.3831pt>
 File: test_acc.png Graphic file (type png)
 <use test_acc.png>
-Package pdftex.def Info: test_acc.png  used on input line 156.
+Package pdftex.def Info: test_acc.png  used on input line 164.
 (pdftex.def)             Requested size: 187.89914pt x 150.11848pt.
- [5 <./train_acc.png> <./test_acc.png>] (./Report.bbl) [6] (./Report.aux)
+ [5 <./3D PCA Centroid.png> <./train_acc.png>] (./Report.bbl) [6 <./test_acc.png>] (./Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: C8BA111E9ED7739F70D93FBAD574BBDF;1904.
+(rerunfilecheck)             Checksum: 03EA1581F555CA45C404BA06BF24D03A;1904.
  ) 
 Here is how much of TeX's memory you used:
- 12753 strings out of 474116
- 198778 string characters out of 5743682
+ 12761 strings out of 474116
+ 198905 string characters out of 5743682
  1942187 words of memory out of 5000000
- 34763 multiletter control sequences out of 15000+600000
+ 34770 multiletter control sequences out of 15000+600000
  567011 words of font info for 71 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 75i,8n,79p,1535b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,775b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Report.pdf (6 pages, 311376 bytes).
+Output written on Report.pdf (6 pages, 340398 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
