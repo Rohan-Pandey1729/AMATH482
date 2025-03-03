@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{Cover1967}
+T.~Cover and P.~Hart.
+\newblock Nearest neighbor pattern classification.
+\newblock {\em IEEE Transactions on Information Theory}, 13(1):21--27, 1967.
+
+\bibitem{Hoerl1970}
+A.~E. Hoerl and R.~W. Kennard.
+\newblock Ridge regression: Biased estimation for nonorthogonal problems.
+\newblock {\em Technometrics}, 12(1):55--67, 1970.
+
+\bibitem{Jolliffe2016}
+I.~T. Jolliffe and J.~Cadima.
+\newblock {\em Principal Component Analysis}.
+\newblock Springer, 2nd edition, 2016.
+
+\bibitem{LeCun1998}
+Y.~LeCun, C.~Cortes, and C.~J. Burges.
+\newblock The mnist database of handwritten digits.
+\newblock 1998.
+
+\end{thebibliography}

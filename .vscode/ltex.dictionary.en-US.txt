@@ -6,3 +6,4 @@ denoising
 OptimuS-VD
 Frobenius
 Plotly
+MNIST

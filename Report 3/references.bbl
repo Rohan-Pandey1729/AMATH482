@@ -1,0 +1,29 @@
+% references.bbl
+\begin{thebibliography}{1}
+
+\bibitem{LeCun1998}
+Yann~LeCun, Corinna Cortes, and Christopher~J.C. Burges.
+\newblock The MNIST Database of Handwritten Digits.
+\newblock 1998.
+
+\bibitem{Jolliffe2016}
+Ian~T. Jolliffe and Jorge Cadima.
+\newblock Principal Component Analysis: A Review and Recent Developments.
+\newblock {\em Philosophical Transactions of the Royal Society A}, 374(2065), 2016.
+
+\bibitem{Hoerl1970}
+Arthur~E. Hoerl and Robert~W. Kennard.
+\newblock Ridge Regression: Biased Estimation for Nonorthogonal Problems.
+\newblock {\em Technometrics}, 12(1):55--67, 1970.
+
+\bibitem{Cover1967}
+Thomas Cover and Peter Hart.
+\newblock Nearest Neighbor Pattern Classification.
+\newblock {\em IEEE Transactions on Information Theory}, 13(1):21--27, 1967.
+
+\bibitem{Cortes1995}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-Vector Networks.
+\newblock {\em Machine Learning}, 20(3):273--297, 1995.
+
+\end{thebibliography}
