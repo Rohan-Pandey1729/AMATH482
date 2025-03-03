@@ -42,7 +42,7 @@ where \(n\) is the number of samples and \(d\) is the number of features (in our
 \[
 \mathbf{C} = \frac{1}{n-1}\mathbf{X}^\top \mathbf{X}.
 \]
-PCA proceeds by solving the eigenvalue problem:
+PCA \cite{Jolliffe2016} proceeds by solving the eigenvalue problem:
 \begin{align*}
 \mathbf{C}\mathbf{v}_i &= \lambda_i \mathbf{v}_i, \quad i = 1,\dots,d,
 \end{align*}
@@ -50,8 +50,6 @@ where the eigenvalues \(\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_d \geq
 \[
 E(k) = \frac{\sum_{i=1}^{k}\lambda_i}{\sum_{i=1}^{d}\lambda_i}.
 \]
-In practice, \(k\) is chosen such that \(E(k) \geq 0.85\), ensuring that at least 85\% of the total variance is preserved \cite{Jolliffe2016}.
-
 
 \subsection{Ridge Classifier}
 The Ridge Classifier is derived from ridge regression, which incorporates \(\ell_2\)-regularization to mitigate overfitting, especially when features are correlated. For a binary classification problem with training data \(\{(\mathbf{x}_i, y_i)\}_{i=1}^n\) where \(y_i \in \{-1, +1\}\), the optimization problem is formulated as:
@@ -75,6 +73,15 @@ The k-Nearest Neighbors (KNN) algorithm is a non-parametric method used for clas
 d(\mathbf{x}, \mathbf{x}_i) = \sqrt{\sum_{j=1}^{d} \left(x_j - x_{i,j}\right)^2},
 \]
 and identifies the \(k\) closest samples. The predicted label for \(\mathbf{x}\) is determined by the majority vote among these \(k\) neighbors. KNN is particularly useful for problems with nonlinear decision boundaries; however, its computational complexity is \(O(n)\) per query, which can be high for large datasets \cite{Cover1967}.
+
+\subsection{Cross-Validation}
+
+Cross-validation is a resampling technique designed to evaluate model performance and minimize overfitting risks \cite{Hastie2009}. A popular variant, \emph{$k$-fold cross-validation}, splits the training data into $k$ mutually exclusive subsets, or folds. For each fold $i$, the model is trained on the combined data from the other $k-1$ folds and validated on the $i$-th fold, resulting in a performance score $S_i$. The overall cross-validation score is then calculated as the mean of these individual scores:
+\[
+\text{CV Score} = \frac{1}{k} \sum_{i=1}^{k} S_i.
+\]
+
+This process ensures that every data point in the training set is used exactly once for validation, providing a more reliable estimate of the model's generalization capability. A common choice is $k=5$, known as \emph{5-fold cross-validation}. Cross-validation is often applied for hyperparameter optimization, model selection, and performance comparison across different algorithms.
 
 
 \section{Algorithm Implementation and Development}
@@ -254,7 +261,7 @@ From the table above we see that the competition is very close between the two c
 
 \section*{Summary and Conclusions}
 
-In summary and conclusion, we have successfully implemented a digit classification system using PCA for dimensionality reduction and Ridge regression and KNN classifiers for binary and multi-class tasks. The results show that the Ridge classifier performs well in binary classification tasks, with accuracies above 95\% for all digit pairs. The multi-class classification task also yields high accuracy, with the KNN classifier slightly outperforming the Ridge classifier. The SVM classifier was also implemented, but its performance was similar to the Ridge classifier. The results demonstrate the importance of feature engineering and model selection in image classification tasks, and the trade-offs between computational efficiency and accuracy. Future work could explore more advanced classifiers and feature extraction techniques to further improve classification performance.
+In summary and conclusion, we have successfully implemented a digit classification system using PCA for dimensionality reduction and Ridge regression and KNN classifiers for binary and multi-class tasks. The results show that the Ridge classifier performs well in binary classification tasks, with accuracies above 95\% for all digit pairs. The multi-class classification task also yields high accuracy, with the KNN classifier slightly outperforming the Ridge classifier. The results demonstrate the importance of feature engineering and model selection in image classification tasks, and the trade-offs between computational efficiency and accuracy. Future work could explore more advanced classifiers and feature extraction techniques to further improve classification performance.
 
 \section*{Acknowledgements}
 

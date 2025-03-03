@@ -5,6 +5,11 @@ T.~Cover and P.~Hart.
 \newblock Nearest neighbor pattern classification.
 \newblock {\em IEEE Transactions on Information Theory}, 13(1):21--27, 1967.
 
+\bibitem{Hastie2009}
+T.~Hastie, R.~Tibshirani, and J.~Friedman.
+\newblock {\em The Elements of Statistical Learning: Data Mining, Inference, and Prediction}.
+\newblock Springer, New York, NY, USA, 2 edition, 2009.
+
 \bibitem{Hoerl1970}
 A.~E. Hoerl and R.~W. Kennard.
 \newblock Ridge regression: Biased estimation for nonorthogonal problems.
