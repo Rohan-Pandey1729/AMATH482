@@ -27,7 +27,7 @@ The MNIST dataset of handwritten digits \cite{LeCun1998} has long been a benchma
 
 \section{Theoretical Background}
 
-Principal Component Analysis (PCA) is a dimensionality reduction technique that finds new orthogonal axes (principal components) in the data that maximize the variance. Given a centered training data matrix 
+\subsection{Principal Component Analysis} (PCA) is a dimensionality reduction technique that finds new orthogonal axes (principal components) in the data that maximize the variance. Given a centered training data matrix 
 \[
 \mathbf{X} \in \mathbb{R}^{n \times d},
 \]
@@ -45,7 +45,7 @@ E(k) = \frac{\sum_{i=1}^{k}\lambda_i}{\sum_{i=1}^{d}\lambda_i}.
 \]
 
 
-\subsection*{2.1 Ridge Classifier}
+\subsection{Ridge Classifier}
 The Ridge Classifier is based on ridge regression, which incorporates an \(\ell_2\)-regularization
 penalty to help mitigate overfitting \cite{Hoerl1970}. For a binary classification task with
 labels \(\{-1, +1\}\), one solves

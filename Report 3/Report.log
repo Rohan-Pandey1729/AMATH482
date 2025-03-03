@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  2 MAR 2025 23:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  2 MAR 2025 23:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -414,7 +414,7 @@ Package hyperref Info: Link coloring OFF on input line 15.
 
  [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Overfull \hbox (11.0425pt too wide) in paragraph at lines 65--66
- \OT1/cmr/m/n/10.95 2.1.\OT1/cmr/bx/n/10.95 k-Nearest Neigh-bors (KNN).[][] \OT1/cmr/m/n/10.95 The k-Nearest Neigh-bors (KNN) al-go-rithm is a non-parametric
+ \OT1/cmr/m/n/10.95 2.3.\OT1/cmr/bx/n/10.95 k-Nearest Neigh-bors (KNN).[][] \OT1/cmr/m/n/10.95 The k-Nearest Neigh-bors (KNN) al-go-rithm is a non-parametric
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 83.
@@ -422,23 +422,23 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on inp
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
  [2]
-<16_PCA.png, id=81, 461.8053pt x 516.7305pt>
+<16_PCA.png, id=85, 461.8053pt x 516.7305pt>
 File: 16_PCA.png Graphic file (type png)
 <use 16_PCA.png>
 Package pdftex.def Info: 16_PCA.png  used on input line 143.
 (pdftex.def)             Requested size: 211.38832pt x 236.53198pt.
-<Cumulative.png, id=83, 499.3857pt x 338.2236pt>
+<Cumulative.png, id=87, 499.3857pt x 338.2236pt>
 File: Cumulative.png Graphic file (type png)
 <use Cumulative.png>
 Package pdftex.def Info: Cumulative.png  used on input line 151.
 (pdftex.def)             Requested size: 211.38832pt x 143.1677pt.
-<OGvsReconstructed.png, id=84, 693.792pt x 250.7769pt>
+<OGvsReconstructed.png, id=88, 693.792pt x 250.7769pt>
 File: OGvsReconstructed.png Graphic file (type png)
 <use OGvsReconstructed.png>
 Package pdftex.def Info: OGvsReconstructed.png  used on input line 165.
 (pdftex.def)             Requested size: 281.85587pt x 101.87785pt.
  [3]
-<Confusion1v8.png, id=90, 407.6028pt x 363.5181pt>
+<Confusion1v8.png, id=94, 407.6028pt x 363.5181pt>
 File: Confusion1v8.png Graphic file (type png)
 <use Confusion1v8.png>
 Package pdftex.def Info: Confusion1v8.png  used on input line 178.
@@ -447,18 +447,18 @@ Package pdftex.def Info: Confusion1v8.png  used on input line 178.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./16_PCA.png> <./Cumulative.png> <./OGvsReconstructed.png>]
-<Confusion3v8.png, id=100, 401.0985pt x 363.5181pt>
+<Confusion3v8.png, id=104, 401.0985pt x 363.5181pt>
 File: Confusion3v8.png Graphic file (type png)
 <use Confusion3v8.png>
 Package pdftex.def Info: Confusion3v8.png  used on input line 190.
 (pdftex.def)             Requested size: 211.38832pt x 191.58203pt.
-<Confusion2v7.png, id=101, 407.6028pt x 363.5181pt>
+<Confusion2v7.png, id=105, 407.6028pt x 363.5181pt>
 File: Confusion2v7.png Graphic file (type png)
 <use Confusion2v7.png>
 Package pdftex.def Info: Confusion2v7.png  used on input line 198.
 (pdftex.def)             Requested size: 211.38832pt x 188.52573pt.
  [5 <./Confusion1v8.png> <./Confusion3v8.png> <./Confusion2v7.png>]
-<ConfusionKNN.png, id=112, 407.6028pt x 363.5181pt>
+<ConfusionKNN.png, id=116, 407.6028pt x 363.5181pt>
 File: ConfusionKNN.png Graphic file (type png)
 <use ConfusionKNN.png>
 Package pdftex.def Info: ConfusionKNN.png  used on input line 228.
@@ -474,21 +474,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: FA6A71E02E6B36CDFC804C295EC50111;1736.
+(rerunfilecheck)             Checksum: 561220C2C8156978934560984ECC5BE0;1976.
  ) 
 Here is how much of TeX's memory you used:
- 12821 strings out of 474116
- 200117 string characters out of 5743682
+ 12823 strings out of 474116
+ 200153 string characters out of 5743682
  1941187 words of memory out of 5000000
- 34832 multiletter control sequences out of 15000+600000
+ 34833 multiletter control sequences out of 15000+600000
  569920 words of font info for 81 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  75i,10n,79p,966b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Report.pdf (6 pages, 386952 bytes).
+Output written on Report.pdf (6 pages, 387088 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
