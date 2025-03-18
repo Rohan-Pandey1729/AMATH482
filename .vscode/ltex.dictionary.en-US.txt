@@ -7,3 +7,12 @@ OptimuS-VD
 Frobenius
 Plotly
 MNIST
+RMSProp
+FashionMNIST
+Kaiming
+FCNs
+softmax
+logits
+unnormalized
+relu
+ReLU
