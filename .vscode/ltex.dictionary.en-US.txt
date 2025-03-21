@@ -16,3 +16,4 @@ logits
 unnormalized
 relu
 ReLU
+Depthwise
